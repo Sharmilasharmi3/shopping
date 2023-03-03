@@ -1,0 +1,175 @@
+body{
+    width: 1600;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    left: 0;
+    background-color: #f18c64;
+    
+  }
+  .navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+    margin-top: 50px;
+  }
+  .navbar ul li{
+    list-style: none;
+  }
+  .navbar ul li a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    color: rgb(7, 6, 9);
+    font-size: 25px;
+    margin-left: 30px;
+    transition: 0.3s ease;
+  }
+  .logo img {
+    width: 120px;
+    padding: 10px;
+    margin-left: 10px;
+  }
+.navbar li a:hover{
+    color: rgb(215, 114, 68);
+}
+.navbar ul li a:hover,
+.navbar ul li a.active{
+  color: rgb(220, 122, 61);
+}
+
+.write{
+  background-image:url("https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg");
+  height: 99vh;
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+.write h4{
+  font-size: 45px;
+  font-style: oblique;
+}
+.write h2{
+  color: rgb(50, 5, 87);
+  font-size:30px ;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.write h1{
+  color: rgb(61, 30, 90) ;
+}
+.write p{
+  font-family:cursive ;
+  font-size: larger;
+  font-size: 20px;
+}
+.write button{
+  font-size: larger;
+  color: rgb(0, 0, 0);
+  background-color: rgb(232, 165, 107);
+  padding:15px;
+  margin-top: 2%;
+  margin-left:8%;
+  border-width: 1;
+  border-radius: 40px;
+}
+
+.write i{
+  font-size: 25px;
+}
+
+.tech{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 150px;
+ 
+}
+.techbox {
+  width: 140px;
+  height: 120px;
+  padding: 25px;
+  justify-content:space-evenly;
+  border: 20px;
+  border-radius: 30px;
+  opacity:0.7;
+  box-shadow: #000000 0 0 20px;
+  background-color: #de9173;
+}
+.techbox:hover {
+  color: #000000;
+  background-color: rgba(185, 114, 44, 0.351);
+}
+.pic img{
+  width: 110px;
+    padding: 10px;
+    margin-left: 10px;
+}
+#product1{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-evenly;
+}
+#product1 .prod{
+  width:18%;
+  min-width:100px;
+  padding: 25px 25px;
+  border: 1px  solid rgb(130, 123, 121);
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 20px 20px 50px rgb(18, 12, 23);
+  margin:15px 0px;
+  background-color: #ffffff;
+  
+}
+#product1 .prod img:hover{
+  box-shadow: 10px 10px 60px rgb(18, 12, 23);
+}
+#product1 .prod img{
+  width:200px;
+  border-radius: 20px;
+}
+.star i{
+  color: #ffc506;
+  font-size: 25px;
+}
+#product1 .prod .desc{
+  text-align: start;
+  padding:1-px 0;
+}
+#product1 .prod .desc span{
+  color: #2b2a29;
+  font-size: 16px;
+}
+#product1 .prod .desc h5{
+  padding-top:7px ;
+  color:rgb(13, 20, 20);
+  font-size: 18px;
+  font-style: oblique;
+}
+#product1 .prod .desc h4{
+  padding-top:7px ;
+  color:rgb(13, 24, 124);
+  font-size: 20px;
+  font-style:inherit;
+}
+#product1 .prod-container{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.prod .icon{
+  justify-content: space-between;
+  display: flex;
+}
+.cart i{
+  padding-left: 250px;
+  font-size: 40px;
+}
+
